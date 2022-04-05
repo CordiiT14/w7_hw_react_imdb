@@ -36,12 +36,14 @@ const UpcomingFilmReleases = () => {
 
 
     return(
-        <>
+        <div className="UpcomingFilmReleases">
         <h2>Upcoming Film Releases for UK</h2>
-        <h3>(that Cordii cares about)</h3>
+        <h3 className="CT">(that Cordii cares about)</h3>
+        <hr></hr>
         <ListOfFilms films={films}/>
+        <hr></hr>
         <MoreFilms/>
-        </>
+        </div>
     );
 };
 

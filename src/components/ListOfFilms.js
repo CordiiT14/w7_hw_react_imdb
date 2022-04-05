@@ -12,9 +12,9 @@ const ListOfFilms = ({films}) => {
     });
 
     return (
-        <>
+        <div className="ListOfFilms">
         {filmNodes}
-        </>
+        </div>
     );
 };
 
